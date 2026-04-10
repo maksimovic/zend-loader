@@ -1,0 +1,25 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Result of method Zend_Loader_Autoloader\:\:_getVersionPath\(\) \(void\) is used\.$#'
+			identifier: method.void
+			count: 1
+			path: library/Zend/Loader/Autoloader.php
+
+		-
+			message: '#^Class Zend_Config not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: library/Zend/Loader/Autoloader/Resource.php
+
+		-
+			message: '#^Method Zend_Loader_ClassMapAutoloader\:\:realPharPath\(\) should return string but return statement is missing\.$#'
+			identifier: return.missing
+			count: 1
+			path: library/Zend/Loader/ClassMapAutoloader.php
+
+		-
+			message: '#^Result of method Zend_Loader_StandardAutoloader\:\:loadClass\(\) \(void\) is used\.$#'
+			identifier: method.void
+			count: 5
+			path: library/Zend/Loader/StandardAutoloader.php
