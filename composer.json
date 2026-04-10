@@ -1,7 +1,12 @@
 {
-    "name": "zf1s/zend-loader",
+    "name": "maksimovic/zend-loader",
     "description": "Zend Framework 1 Loader package",
-    "keywords": ["framework", "zf1", "zend", "loader"],
+    "keywords": [
+        "framework",
+        "zf1",
+        "zend",
+        "loader"
+    ],
     "homepage": "http://framework.zend.com/",
     "license": "BSD-3-Clause",
     "require": {
